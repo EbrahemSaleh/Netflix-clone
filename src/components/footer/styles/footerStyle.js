@@ -6,6 +6,7 @@ export const Container = styled.div`
   margin: auto;
   max-width: 1000px;
   flex-direction: column;
+  font-family: 'Source Sans Pro', sans-serif;
 
   @media (max-width: 1000px) {
     padding: 70px 60px;
@@ -42,9 +43,6 @@ export const Title = styled.p`
   font-size: 16px;
   color: #757575;
   margin-bottom: 40px;
-  &:hover{
-    text-decoration:underline;
-  };
 `;
 
 export const Text = styled.p`

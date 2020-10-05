@@ -10,18 +10,18 @@ export function FooterContainer() {
       <Footer.Break />
       <Footer.Row>
         <Footer.Column>
-          <Footer.Link href="#">FAQ</Footer.Link>
-          <Footer.Link href="#">Investor Relations</Footer.Link>
-          <Footer.Link href="#">Ways to Watch</Footer.Link>
-          <Footer.Link href="#">Corporate Information</Footer.Link>
-          <Footer.Link href="#">Netflix Originals</Footer.Link>
+          <Footer.Link href="#"> <span> FAQ </span></Footer.Link>
+          <Footer.Link href="#"> <span> Investor Relations </span> </Footer.Link>
+          <Footer.Link href="#"> <span> Ways to Watch</span></Footer.Link>
+          <Footer.Link href="#"> <span>Corporate Information </span>  </Footer.Link>
+          <Footer.Link href="#"> <span> Netflix Originals </span> </Footer.Link>
         </Footer.Column>
 
         <Footer.Column>
-          <Footer.Link href="#">Help Centre</Footer.Link>
-          <Footer.Link href="#">Jobs</Footer.Link>
-          <Footer.Link href="#">Terms of Use</Footer.Link>
-          <Footer.Link href="#">Contact Us</Footer.Link>
+          <Footer.Link href="#"> <span> Help Centre </span> </Footer.Link>
+          <Footer.Link href="#"> <span> Jobs </span> </Footer.Link>
+          <Footer.Link href="#"> <span> Terms of Use </span> </Footer.Link>
+          <Footer.Link href="#"> <span>Contact Us </span> </Footer.Link>
         </Footer.Column>
 
         <Footer.Column>
