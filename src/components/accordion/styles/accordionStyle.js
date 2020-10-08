@@ -61,9 +61,7 @@ export const Header = styled.div`
 
   img {
     filter: brightness(0) invert(1);
-    width: 24px;
-    transform : translateY (-50%) rotate(-45deg);
-    transition : transform .5s ease-ease-in-out ;      
+    width: 24px;     
 
     @media (max-width: 600px) {
       width: 16px;
