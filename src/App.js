@@ -12,8 +12,6 @@ export default function App() {
   return (
     <Router>
       <Switch>
-       
-
         <IsUserRedirect user={user} loggedInPath={ROUTES.BROWSE} path={ROUTES.SIGN_IN}  >
           <SignIn />
       </IsUserRedirect>
@@ -25,8 +23,7 @@ export default function App() {
       <ProtectedRoute user={user} path={ROUTES.BROWSE}  >
           <Browse />
         </ProtectedRoute>
-   
- 
+  
         <IsUserRedirect user={user} loggedInPath={ROUTES.BROWSE}   path={ROUTES.HOME}>
           <Home />
         </IsUserRedirect>
