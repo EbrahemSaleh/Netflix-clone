@@ -12,3 +12,5 @@ exports[`<Loading/>  1`] = `
   />
 </div>
 `;
+
+exports[`<Loading/> renders the <Loading.ReleaseBody /> 1`] = `null`;
