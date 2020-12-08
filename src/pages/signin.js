@@ -42,7 +42,7 @@ export default function SignIn() {
         <Form>
           <Form.Title>Sign In</Form.Title>
 
-          {error && <Form.Error>{error}</Form.Error>}
+          {error && <Form.Error data-testid="error" >{error}</Form.Error>}
 
           <Form.Base onSubmit={ handleSignin} method='POST' >
             <Form.Input
@@ -60,7 +60,7 @@ export default function SignIn() {
               autoComplete="off"
               required
             />
-            <Form.Submit disabled={isInvalid} type="submit">
+            <Form.Submit disabled={isInvalid} type="submit" data-testid="sign-in">
               Sign In
             </Form.Submit>
           </Form.Base>

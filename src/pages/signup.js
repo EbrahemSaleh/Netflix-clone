@@ -47,7 +47,7 @@ export default function SignUp() {
       <HeaderContainer>
         <Form>
           <Form.Title>Sign Up</Form.Title>
-          {error && <Form.Error>{error}</Form.Error>}
+          {error && <Form.Error  data-testid="error" >{error}</Form.Error>}
 
           <Form.Base onSubmit={handleSignUp} method='POST' >
             <Form.Input
@@ -72,7 +72,7 @@ export default function SignUp() {
               autoComplete="off"
               required
             />
-            <Form.Submit disabled={isInvalid} type="submit" >
+            <Form.Submit disabled={isInvalid} type="submit" data-testid="sign-up" >
               Sign Up
             </Form.Submit>
           </Form.Base>
